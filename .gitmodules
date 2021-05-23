@@ -1,0 +1,3 @@
+[submodule "gopacket"]
+        path = vendor/github.com/google/gopacket
+        url = https://github.com/google/gopacket
