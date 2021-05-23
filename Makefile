@@ -25,11 +25,11 @@ build: clean_build
 	go build github.com/urld/wifitracker/cmd/wifianalyze
 
 test:
-	go test github.com/urld/wifitracker/...
+	go test github.com/urld/wifitracker/..
 
 
 install: test
-	go install -v ./...
+	go install -v ./..
 
 
 clean: clean_build clean_dist
